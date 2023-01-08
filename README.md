@@ -29,6 +29,15 @@ Next, open a seperate terminal and `cd` into `front-end-react`, and run `npm ins
 | PUT    | /:id                                 | Update a particular movie         |
 | DELETE | /:id                                 | Delete a particular movie         |
 
+### APP 
+
+| Path      | Component                            | Purpose                           |
+| --------- | ------------------------------------ | --------------------------------- |
+| /         | Home.jsx                             | Home page                         |
+| /new      | NewMovie.jsx                         | Form for creating a new movie     |
+| /edit/:id | Form for editing a movie             | Form for editing a movie          |
+
+
 ### Technologies
 Dependencies: cors, dotenv, express, mongoose, nodemon
 
